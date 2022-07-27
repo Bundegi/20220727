@@ -3,7 +3,7 @@
 #include <cmath>
 
 using namespace std;
-
+//프로그래머스 삼각달팽이
 vector<int> solution(int n) {
     int sum = 0;
     for (int i = 1; i <= n; i++) sum += i;
